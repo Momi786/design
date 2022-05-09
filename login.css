@@ -1,0 +1,52 @@
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .container 
+      {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .loginbuttons button {
+        width: 200px;
+        height: 60px;
+        border-radius: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .loginbuttons button:nth-child(1) {
+        background-color: #f1f1f1;
+        color: black;
+      }
+      .loginbuttons button:nth-child(2) {
+        color: white;
+        background-color: #5161CE;
+      }
+
+      .loginbuttons img {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        filter: invert(100%);
+      }
+      .form-check-input {
+        width: 30px;
+        height: 30px;
+        margin-left: -40px;
+      }
+      .loginbtn button{
+        background-color: #5161CE;
+        width: 50%;
+        border-radius: 30px;
+      }
+      .myinputs input{
+        width: 50%;
+      }
+      .upperpart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
